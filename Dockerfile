@@ -1,4 +1,5 @@
 FROM isaitb/xml-validator:latest
 
-ENV spring.config.location /validator/invoice/
+ENV server.servlet.context-path /invoice
+ENV validator.resourceRoot /validator/invoice/
 COPY invoice /validator/invoice/
