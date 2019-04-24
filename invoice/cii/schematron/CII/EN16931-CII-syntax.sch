@@ -364,7 +364,8 @@
 	<param name="CII-SR-306" value="not(ram:PurchaseConditionsReferencedDocument)"/>
 	<param name="CII-SR-307" value="not(ram:SpecifiedProcuringProject/ram:Description)"/>
 	<param name="CII-SR-448" value="not(ram:UltimateCustomerOrderReferencedDocument)"/>
-
+	<param name="CII-SR-450" value="(not(ram:BuyerTradeParty/ram:ID) and ram:BuyerTradeParty/ram:GlobalID) or (ram:BuyerTradeParty/ram:ID and not(ram:BuyerTradeParty/ram:GlobalID)) or (not(ram:BuyerTradeParty/ram:ID) and not(ram:BuyerTradeParty/ram:GlobalID))"/>
+	
 	<!-- ApplicableHeaderTradeDelivery -->
 	<param name="CII-SR-308" value="not(ram:RelatedSupplyChainConsignment)"/>
 	<param name="CII-SR-309" value="not(ram:ShipToTradeParty/ram:RoleCode)"/>
@@ -399,6 +400,8 @@
 	<param name="CII-SR-336" value="not(ram:ConsumptionReportReferencedDocument)"/>
 	<param name="CII-SR-337" value="not(ram:PreviousDeliverySupplyChainEvent)"/>
 	<param name="CII-SR-338" value="not(ram:PackingListReferencedDocument)"/>
+	<param name="CII-SR-449" value="(not(ram:ShipToTradeParty/ram:ID) and ram:ShipToTradeParty/ram:GlobalID) or (ram:ShipToTradeParty/ram:ID and not(ram:ShipToTradeParty/ram:GlobalID)) or (not(ram:ShipToTradeParty/ram:ID) and not(ram:ShipToTradeParty/ram:GlobalID))"/>
+	
 	<!--  ApplicableHeaderTradeSettlement -->
 	<param name="CII-SR-339" value="not(ram:DuePayableAmount)"/>
 	<param name="CII-SR-340" value="not(ram:CreditorReferenceTypeCode)"/>
@@ -427,6 +430,7 @@
 	<param name="CII-SR-362" value="not(ram:PayeeTradeParty/ram:SpecifiedTaxRegistration)"/>
 	<param name="CII-SR-363" value="not(ram:PayeeTradeParty/ram:EndPointURIUniversalCommunication)"/>
 	<param name="CII-SR-364" value="not(ram:PayeeTradeParty/ram:LogoAssociatedSpecifiedBinaryFile)"/>
+	<param name="CII-SR-451" value="(not(ram:PayeeTradeParty/ram:ID) and ram:PayeeTradeParty/ram:GlobalID) or (ram:PayeeTradeParty/ram:ID and not(ram:PayeeTradeParty/ram:GlobalID)) or (not(ram:PayeeTradeParty/ram:ID) and not(ram:PayeeTradeParty/ram:GlobalID))"/>
 	
 	<param name="CII-SR-365" value="not(ram:PayerTradeParty)"/>
 	<param name="CII-SR-366" value="not(ram:TaxApplicableTradeCurrencyExchange)"/>
