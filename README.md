@@ -41,5 +41,5 @@ workstation.
 
 # Contact
 
-To get in touch for feedback or questions please send an email to [DIGIT-ITB@ec.europa.eu](mailto:DIGIT-ITB@ec.europa.eu).
-
+To get in touch for feedback or questions on this validator please send an email to [EC-EINVOICING-SUPPORT@ec.europa.eu](mailto:DIGIT-ITB@ec.europa.eu).
+For general questions on the Interoperability Test Bed and its XML validator please email [DIGIT-ITB@ec.europa.eu](mailto:DIGIT-ITB@ec.europa.eu).
