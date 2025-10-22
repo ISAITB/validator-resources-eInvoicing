@@ -26,9 +26,9 @@ docker run -d --name my-validator -p 8080:8080 \
 ```
 
 Using the above command your validator will be available:
-* Via UI at http://localhost:8080/json/geojson/upload
-* Via REST API: http://localhost:8080/json/swagger-ui/index.html (use "geojson" when prompted for a "domain")
-* Via SOAP API: http://localhost:8080/json/soap/geojson/validation?wsdl
+* Via UI at http://localhost:8080/invoice/upload
+* Via REST API: http://localhost:8080/swagger-ui.html (use "invoice" when prompted for a "domain")
+* Via SOAP API: http://localhost:8080/api/invoice/validation?wsdl
 
 # Licence
 
